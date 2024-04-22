@@ -12,7 +12,7 @@ public class App {
 	public static void main(String[] args) {
 		Student s1 = new Student();
 		s1.setName("Balaji");
-		s1.setRollno(20);
+		s1.setRollno(21);
 		Configuration con = new Configuration().configure().addAnnotatedClass(Student.class);
 		SessionFactory ssf = con.buildSessionFactory();
 		Session session = ssf.openSession();
